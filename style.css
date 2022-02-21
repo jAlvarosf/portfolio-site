@@ -197,6 +197,7 @@ section {
 .about .about-content .right p {
     text-align: justify;
 }
+
 .about .about-content .right a {
     display: inline-block;
     background: #00804b;
@@ -252,6 +253,7 @@ section {
         display: block;
         z-index: 999;
     }
+
     .navbar .menu {
         position: fixed;
         width: 100%;
@@ -263,6 +265,7 @@ section {
         text-align: center;
         transition: all 0.3s ease;
     }
+
     .navbar .menu.active {
         left: 0;
     }
@@ -293,11 +296,13 @@ section {
     .about .about-content .column {
         width: 50%;
     }
+
     .about .about-content .left {
         display: flex;
         justify-content: center;
         margin: 0 auto 60px;
     }
+
     .about .about-content .right {
         flex: 100%;
     }
@@ -316,6 +321,7 @@ section {
         font-size: 20px;
     }
 }
+
 @media (max-width: 500px) {
     .home .home-content .text-2 {
         font-size: 50px;
